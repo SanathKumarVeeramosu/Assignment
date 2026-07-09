@@ -1,0 +1,35 @@
+Task 1:
+created a index.html file with title Student Profile App
+commited it and pushed it to the main branch master
+
+Task 2:
+created a branch feature/studentdetails
+added the student info to the same index.html file and commited and then pushed.
+I don't see the index.html with student details in the master branch.
+the student details are only saved in the branch feature/studentdetails.
+
+Task 3:
+Obsercvation -> After switching back to the main branch, the student details are not visible. The main branch only has the original welcome message because the student details were added in a separate branch named feature/student-details.
+
+Task 4:
+created a branch feature/contactinfo
+added the contact information to the same index.html file and commited and then pushed.
+I don't see the index.html with student details in the current branch(feature/contactinfo).
+the student details are only saved in the branch feature/studentdetails.
+in the main branch the index file doesn't have the contact info and student details.
+
+Task 5:
+Each branch has a different version
+Main branch(master) has only welcome page
+feature/studentdetails has the welcome page with the student info
+feature/contactinfo has the welcome page with contact info
+
+Task 6:
+went back to master branch 
+merged the feature/studentdetails branch to master using git merge 
+now viewing that file show me the welcome page with student details
+
+Task 7:
+as both the branches had the file with the same name 
+So,when I tried to merge contact info into main, Git saw that both versions changed the same area of the same file. So Git stopped and asked to choose the final version manually.
+so i edited the file and added to the staging area , then commited it to local repo, finally pushed to the  remote repo.
